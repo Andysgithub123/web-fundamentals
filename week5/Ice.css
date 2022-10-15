@@ -1,0 +1,13 @@
+.circles{
+    min-width: 100%;
+}
+.body{
+    margin: 0px;
+    background-color: #737373;
+}
+.desk{
+    border-radius: 60%;
+    padding: 0px;
+    width: 30%;
+    border: 10px solid #444444;
+}

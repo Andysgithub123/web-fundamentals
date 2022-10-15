@@ -1,0 +1,17 @@
+.top{
+background-color: red;
+
+}
+.middle{
+    background-color: blue;
+    text-decoration-color: black;
+    margin: 0%;
+}
+.bottom{
+    background-color: green;
+    text-decoration-color: black;
+    text-align: center;
+    margin-left:100;
+    margin-right:100;
+
+}
