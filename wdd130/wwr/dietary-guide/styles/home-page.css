@@ -30,10 +30,11 @@ header {
 .sub_nav {
     grid-column: 1/3;
     grid-row: 2/3;
-    background-color: #F4845F;
+    background-color: #D4AC0D;
     border: 4px solid black;
     border-radius: 4px;
     width: auto;
+    padding: 4%;
 }
 #home {
     justify-self: center;
@@ -56,12 +57,14 @@ header {
     align-self: center;
     justify-self: center;
     border-bottom: thick solid black;
+    color: #d3edff;
 }
 #nav {
     align-self: center;
     justify-self: center;
     grid-column: 2;
     grid-row: 3;
+    color: #d3edff;
 }
 
 main {
@@ -69,6 +72,35 @@ main {
     grid-template-columns: 1fr 1fr;
     background-color: #F4845F;
 }
+
+
+
+a:link {
+    color: #396E94;
+    background-color: #D4AC0D;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
 #right {
     grid-column: 2;
     margin: 10%;
